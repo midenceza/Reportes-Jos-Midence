@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Reporte
+</name>
+</assembly>
+<members>
+<member name="T:Reporte.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Reporte.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Reporte.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.countriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.departmentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.dependentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.employeesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.jobsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.locationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.regionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.countriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.departmentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.dependentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.employeesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.jobsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.locationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.regionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.countriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.departmentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.dependentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.employeesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.jobsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.locationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSet.regionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.countriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.departmentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.dependentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.employeesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.jobsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.locationsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.regionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Reporte.BdHRDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Reporte.BdHRDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Reporte.BdHRDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Reporte.BdHRDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Reporte.BdHRDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Reporte.BdHRDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Reporte.BdHRDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Reporte.BdHRDataSetTableAdapters.TableAdapterManager.UpdateAll(Reporte.BdHRDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Reporte.BdHRDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
